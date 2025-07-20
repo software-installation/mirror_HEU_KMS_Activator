@@ -1,9 +1,9 @@
 # .github/workflows/mirror.yml
-name: 
+name: 同步zbezj/HEU_KMS_Activator
 
 on:
   schedule:
-    - cron: '0 * * * *'  # 每小时运行一次
+    - cron: '0 6 */2 * *'  # 每小时运行一次
   workflow_dispatch:     # 允许手动触发
 
 jobs:
